@@ -3,7 +3,7 @@ import { jwtDecode as jwt_decode } from 'jwt-decode';
 
 
 // Base URL for the orders API endpoint
-const BASE_URL = 'http://127.0.0.1:8000';
+const BASE_URL = 'https://car-rental-backend-render.onrender.com/';
 
 // Async function to place an order
 export const placeOrder = async (authToken: string, cartItems: CartItem[], totalSum: number): Promise<void> => {

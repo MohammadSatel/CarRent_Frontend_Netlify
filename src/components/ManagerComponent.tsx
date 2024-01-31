@@ -106,9 +106,9 @@ const ManagerComponent: React.FC = () => {
           <div key={product.id} className="col-md-4 mb-4">
             <div className="card h-100">
               <img 
-                src={typeof product.image === 'string' ? product.image : 'http://127.0.0.1:8000/static/images/placeholder.png'} 
+                src={typeof product.image === 'string' ? product.image : 'https://car-rental-backend-render.onrender.com/static/images/placeholder.png'} 
                 alt={product.name} 
-                onError={(e) => (e.currentTarget.src = 'http://127.0.0.1:8000/static/images/placeholder.png')}
+                onError={(e) => (e.currentTarget.src = 'https://car-rental-backend-render.onrender.com/static/images/placeholder.png')}
                 className="card-img-top" 
               />
               <div className="card-body">

@@ -11,7 +11,7 @@ const ForgotPassword: React.FC = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/send-password-reset-email/', {
+      const response = await fetch('https://car-rental-backend-render.onrender.com/send-password-reset-email/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
