@@ -2,7 +2,7 @@ import axios, { AxiosRequestConfig } from 'axios';
 
 
 // Base URL for the API endpoint
-const BASE_URL = 'https://car-rental-backend-render.onrender.com/'; // Replace with your backend API URL
+const BASE_URL = 'https://car-rental-backend-render.onrender.com'; // Replace with your backend API URL
 
 // Async function to call the login API endpoint.
 export const loginApi = async (credentials: any) => {

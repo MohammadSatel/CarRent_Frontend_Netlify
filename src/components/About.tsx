@@ -5,7 +5,7 @@ import '../features/about/About.css'; // Importing the CSS for styling
 const About = () => {
   return (
     <div className="page-content">
-      <h1>Best Cars, Best Prices Us</h1>
+      <h1>Best Cars, Best Prices</h1>
       <br></br>
       <p>Our mission is to provide the best car rental prices for customers worldwide</p>
       <p>We work with the most trusted car rental suppliers worldwide</p>

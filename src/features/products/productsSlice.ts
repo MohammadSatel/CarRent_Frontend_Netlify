@@ -33,7 +33,7 @@ const initialState: ProductState = {
 };
 
 // Base URL for the products API
-const BASE_URL = 'https://car-rental-backend-render.onrender.com/';
+const BASE_URL = 'https://car-rental-backend-render.onrender.com/products';
 
 // Async thunk for fetching products
 export const fetchProducts = createAsyncThunk('products/fetchProducts', async (_, { rejectWithValue }) => {
